@@ -1,7 +1,7 @@
 {
   "name": "minerva",
   "version": "1.0.0",
-  "description": "Simplifica las tareas administrativas y evaluativas del kindergarden.",
+  "description": "Simplifica las tareas administrativas y evaluativas de un jardin de niños.",
   "main": "index.js",
   "type": "module",
   "scripts": {
