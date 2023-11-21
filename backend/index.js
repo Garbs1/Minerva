@@ -1,5 +1,5 @@
 import express from "express";
-import { alumnosRouter } from "./routers/alumnos.router";
+import { alumnosRouter } from "./routers/alumnos.router.js";
 
 const app = express();
 

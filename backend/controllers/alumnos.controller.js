@@ -2,6 +2,6 @@ export const getAlumnos = (req, res) => {
   res.send("hola mundo");
 };
 
-export const getAlumnoById = (req, res)=>{
-  res.send("olis mundoo")
-}
+export const getAlumnoById = (req, res) => {
+  res.send(req.params.id);
+};
