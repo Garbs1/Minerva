@@ -3,5 +3,5 @@ export const getAlumnos = (req, res) => {
 };
 
 export const getAlumnoById = (req, res) => {
-  res.send(req.params.id);
+  res.send(req.params);
 };
