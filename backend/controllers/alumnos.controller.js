@@ -1,7 +1,8 @@
-export const getAlumnos = (req, res) => {
-  res.send("hola mundo");
+import { supabase } from "../db/connection.js";
+
+export const getAlumnos = async (req, res) => {
+  let { data: alumnos, error } = await supabase.from("alumnos").select("*");
+  res.json(alumnos);
 };
 
-export const getAlumnoById = (req, res) => {
-  res.send(req.params);
-};
+export const getAlumnoById = async (req, res) => {};

@@ -1,7 +1,7 @@
 {
   "name": "minerva",
   "version": "1.0.0",
-  "description": "Simplifica las tareas administrativas y evaluativas de un jardin de niños.",
+  "description": "Simplifica las tareas administrativas y evaluativas del kindergarden.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -17,6 +17,8 @@
   "author": "Garbs & Watter",
   "license": "ISC",
   "dependencies": {
+    "@supabase/supabase-js": "^2.38.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2"
   },
   "devDependencies": {
